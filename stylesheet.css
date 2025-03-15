@@ -1,0 +1,64 @@
+#wrapper {
+    width: 70%;
+    height: 100%;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: blue;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#aboutSection {
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 2%;
+    padding: 2%;
+}
+
+.profilePhoto {
+    width: 100%;
+    object-fit: contain;
+}
+
+#projectsView {
+    display: inline-flex;
+}
+
+.project {
+    max-width: 50%;
+    height: 20%;
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1rem;
+    background-color: lightgray;
+}
+
+.projectText {
+    margin: 1rem;
+}
+
+.projectPhoto {
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
